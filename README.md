@@ -1,6 +1,6 @@
 # Advanced_sales_analysis_using_Google_Looker 
 # Project Overview
-This project analyzes **retail sales data** to extract actionable insights and create interactive visualizations using **SQL, Python, and Google Looker Studio**. The dataset consists of multiple tables — `customer_detail`, `order_detail`, `sku_detail`, and `payment_detail` — representing customers, orders, products, and payments.
+This project analyzes **sales data** to extract actionable insights and create interactive visualizations using **SQL, Python, and Google Looker Studio**. The dataset consists of multiple tables — `customer_details`, `order_details`, `sku_details`, and `payment_details` — representing customers, orders, products, and payments.
 
 **Objectives:**
 - **Derive Key Business Insights:** Identify top-performing products, analyze category trends, and support data-driven decision-making.
@@ -31,7 +31,7 @@ Before running this project, the following knowledge and tools are recommended:
 
 **Tools & Technologies:**
 - SQL Database
-- Python IDE (Jupyter Notebook, Google Colab)
+- Python IDE (Jupyter Notebook)
 - Google Looker Studio
 
 ---
@@ -42,10 +42,10 @@ Before running this project, the following knowledge and tools are recommended:
 - **Database Setup:**
   - Created a normalized sales database for scalability
   - Key tables:
-    - `customer_detail`: Customer information
-    - `order_detail`: Order transactions
-    - `sku_detail`: Product details (categories, pricing)
-    - `payment_detail`: Payment methods and statuses
+    - `customer_details`: Customer information
+    - `order_details`: Order transactions
+    - `sku_details`: Product details (categories, pricing)
+    - `payment_details`: Payment methods and statuses
 - **Data Transformation with Python:**
   - Extracted data via SQL queries
   - Cleaned and enriched data using Pandas
@@ -76,7 +76,7 @@ Before running this project, the following knowledge and tools are recommended:
 
 ## Tools and Technologies Used
 - **SQL:** Database creation, querying, and aggregation
-- **Python:** Data processing (**Pandas**) and visualization (**Matplotlib, Seaborn**)
+- **Python:** Data processing (**Pandas**) and visualization (**Matplotlib**)
 - **Google Looker Studio:** Interactive dashboards with dynamic filters
 
 ---
